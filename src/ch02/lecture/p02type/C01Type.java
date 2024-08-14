@@ -15,5 +15,8 @@ public class C01Type {
         // >> primitive 타이블 제외한 나머지\
         int v1 = 2147483647;
         System.out.println("v1+1 = " + (v1+1));
+        long v2 = 21474836480L;
+        long v3 = 21_4700_4836_480L;
+
     }
 }
