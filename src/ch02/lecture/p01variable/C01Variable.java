@@ -18,7 +18,7 @@ public class C01Variable {
 //         a = 3.14 >> 실수
         // 정수형 변수 공간 b 생성
         int b;
-        //초기화 되지 않은 변수는 사용할 수 없당 ㅋ0ㅋ
+        //초기화 되지 않은 변수는 사용할 수 없다 ㅋ0ㅋ
 //        System.out.println(b);
 
         b =3 ;
