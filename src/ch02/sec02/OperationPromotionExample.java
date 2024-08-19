@@ -12,7 +12,7 @@ public class OperationPromotionExample {
         int v4 = 100;
         long v5 = 1000L;
         long result3 = v3 + v4 + v5;
-        System.out.println("result3 = " + result3+result3.);
+        System.out.println("result3 = " + result3);
 
         char v6 = 'A';
         char v7 = 1;
