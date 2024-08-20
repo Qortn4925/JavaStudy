@@ -12,10 +12,12 @@ public class LogicalOperatorExample {
             System.out.println("소문자구ㅇ");
 
         }
+
+        
         if ((48 <= charCode) && (charCode <= 57)) {
             System.out.println("0~9사이 수");
         }
 
-        
+
     }
 }
