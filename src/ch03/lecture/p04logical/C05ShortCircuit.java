@@ -14,5 +14,5 @@ public class C05ShortCircuit {
         System.out.println("d = " + d);
         System.out.println("f = " + f);
     }
-    }
 }
+
