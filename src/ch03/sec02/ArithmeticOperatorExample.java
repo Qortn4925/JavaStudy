@@ -7,7 +7,7 @@ public class ArithmeticOperatorExample {
         int v3 = 5;
         long v4 = 10L;
 
-        int reult = v1 + v2;            // 바이트 바이트 합 >>  작은거에서 큰거로 가서 자동
+        int reult = v1 + v2;            // 바이트 바이트 합 (byte, short, int)의 연산결과>> int
         System.out.println("reult = " + reult);
 
         long reult1 = v1 + v2 - v4;    // 연산 결과중 제일 큰 타입ㅇ니 long
