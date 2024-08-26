@@ -2,6 +2,7 @@ package ch02.lecture.p02type;
 
 public class C04Boolean {
     public static void main(String[] args) {
+        // if 문
         boolean a = true;
         boolean b = false;
 

@@ -13,5 +13,6 @@ public class C07Scaneer {
         double b = scanner.nextDouble();
 
         System.out.println("더한 값 = " + (a + b));
+        
     }
 }

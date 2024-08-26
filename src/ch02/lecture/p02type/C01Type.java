@@ -2,6 +2,7 @@ package ch02.lecture.p02type;
 
 public class C01Type {
     public static void main(String[] args) {
+        // 각 데이터형의 크기와  , 최대값
 
         //java data type 2가지
         //1.primitive type 8가지
@@ -14,7 +15,7 @@ public class C01Type {
         //2.reference type
         // >> primitive 타이블 제외한 나머지\
         int v1 = 2147483647;
-        System.out.println("v1+1 = " + (v1+1));
+        System.out.println("v1+1 = " + (v1 + 1));
         long v2 = 21474836480L;
         long v3 = 21_4700_4836_480L;
 

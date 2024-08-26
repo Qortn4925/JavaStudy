@@ -4,7 +4,7 @@ public class C03TypeConversion {
     public static void main(String[] args) {
         // 정수 <> 실수
         //정수 >> 실수 자동
-        //실수 >> 자동  강제 형
+        //실수 >>정수 자동  강제 형
         long a = 50000;
         double b = a;
 

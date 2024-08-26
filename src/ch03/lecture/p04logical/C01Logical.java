@@ -16,7 +16,7 @@ public class C01Logical {
         //xor(^)배타적 논리합 (caret) 삿갓
         //두 피연산자가 다르면 true, 같으면 fasle  , 피연산자 2
         System.out.println("xor-------");
-        System.out.println(true ^ true);
+        System.out.println(true ^ false);
         System.out.println(false ^ false);
 
         //not (!)
