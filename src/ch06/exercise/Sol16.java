@@ -5,23 +5,24 @@ public class Sol16 {
 
         Printer myp = new Printer();
         myp.println(10);
-        
+
+        Printer.println(3);
     }
 
 }
 
 class Printer {
-    void println(int a) {
+    static void println(int a) {
 
     }
 
-    void println(String a) {
+    static void println(String a) {
     }
 
-    void println(Double a) {
+    static void println(Double a) {
 
     }
 
-    void println(boolean a) {
+    static void println(boolean a) {
     }
 }
