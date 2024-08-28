@@ -4,23 +4,56 @@ public class Sol13 {
     public static void main(String[] args) {
         Member mb = new Member("hong", "12345");
 
-        mb.login(mb.id, mb.password);
-        mb.logout(mb.id);
+        mb.login(mb.getId(), mb.getPassword());
+        mb.logout(mb.getId());
 
     }
 }
 
 class Member {
-    String name;
+    private String name;
 
 
-    String id;
-    String password;
-    int age;
+    private String id;
+    private String password;
+    private int age;
 
     Member(String id, String password) {
+        setId(id);
+        setPassword(password);
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
         this.id = id;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     boolean login(String id, String password) {
@@ -34,7 +67,7 @@ class Member {
 
     public void logout(String id) {
         System.out.println(STR."\{id}님의 계정이 로그아웃 되었습니다.");
-        
+
     }
 
 }
