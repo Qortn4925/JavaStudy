@@ -9,6 +9,8 @@ public class DriverExample {
     public static void main(String[] args) {
         Driver driver = new Driver();
 
+        Vehicle v1 = new Bus();
+        Vehicle v2 = new Taxi();
         //클래스를 직접 생성해서 집어넣은 경우와
         Bus bus = new Bus();
         Taxi taxi = new Taxi();
@@ -16,7 +18,9 @@ public class DriverExample {
         driver.drive(bus);
         driver.drive(taxi);
 
-
+        driver.drive(v1);
+        driver.drive(v2);
+        
         //exam01 패키지에 있는 방식은
         //Car 라는 클래스가 필드값으로 (구현클래스 kumho, hankook), 생성해서 돌렸고
         // 이번엔 예제에서 직접  구현클래스를 생성하고 그 값을 >  driver객체의. drive()안에 넣어서 실현

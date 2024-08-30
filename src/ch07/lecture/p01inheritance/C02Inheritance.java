@@ -15,6 +15,23 @@ class ParentClass02 {
         this.age = age;
     }
     // 메소드들....
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
 
 class ChildClass02 extends ParentClass02 {
