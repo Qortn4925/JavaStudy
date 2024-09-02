@@ -9,6 +9,7 @@ public class Anonymous {
         }
     };
 
+
     void method1() {
         Vehicle localVar = new Vehicle() {
             @Override
