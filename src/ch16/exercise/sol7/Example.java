@@ -21,6 +21,7 @@ public class Example {
 
             return x;
         });
+
         System.out.println("최댓값" + max);
 
         int min = maxOrMin((x, y) -> {

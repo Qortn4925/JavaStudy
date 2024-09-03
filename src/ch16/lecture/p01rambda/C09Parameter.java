@@ -1,4 +1,4 @@
-package ch16;
+package ch16.lecture.p01rambda;
 
 public class C09Parameter {
     public static void main(String[] args) {
