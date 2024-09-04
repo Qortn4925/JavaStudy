@@ -1,4 +1,4 @@
-package ch09.lecture.sec07.exam01;
+package ch09.sec07.exam01;
 
 public class Car {
     private Tire tire = new Tire();

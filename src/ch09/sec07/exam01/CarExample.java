@@ -1,6 +1,4 @@
-package ch09.lecture.sec07.exam01;
-
-import ch08.exercise.sol8.C;
+package ch09.sec07.exam01;
 
 public class CarExample {
     public static void main(String[] args) {
