@@ -8,10 +8,14 @@ public class C03Sort {
     public static void main(String[] args) {
         List<Book3> list = new ArrayList<>();
         list.add(new Book3("a", 300));
+
+
         list.add(new Book3("b", 100));
         list.add(new Book3("c", 500));
         list.add(new Book3("d", 412));
 
+        // Compareable 인터페이스를 이용해서 일일히 구현하기에는  귀찮기도 하고
+        // Comparator 라는 인터페이스는  compare 추상 메소드 이용해서 람다로 구현함
         list.forEach(System.out::println);
         Collections.sort(list, (x, y) -> x.getPrice() - y.getPrice());
 

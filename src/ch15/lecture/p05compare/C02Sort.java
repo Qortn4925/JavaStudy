@@ -26,6 +26,8 @@ public class C02Sort {
     }
 }
 
+//Collections 에는 sort 메소드가 있지만  숫자가 아니거나 ,  정렬 기준을 바꾸고 싶다면
+//Comparable 인터페이스를 사용해야함 > compareTo라는 추상 메소드를 가지는디
 class Book2 implements Comparable<Book2> {
     private String title;
     private int price;

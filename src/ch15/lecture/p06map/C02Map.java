@@ -3,6 +3,7 @@ package ch15.lecture.p06map;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.BiConsumer;
 
 public class C02Map {
     public static void main(String[] args) {
@@ -29,13 +30,12 @@ public class C02Map {
             String key = entry.getKey();
             Integer val = entry.getValue();
             System.out.println(key + ":" + val);
-
         }
 
-        map.forEach((k, v) -> {
-            System.out.println(k + " : " + v);
-        });
-        
+
+        //map의 fore each문은 biconsumer 인터페이스 > accept 라는 추상 메소드를 가짐 > 람다
+        map.forEach((k, v) -> System.out.println(k + " : " + v));
+
 
     }
 }
