@@ -23,8 +23,6 @@ class Solution {
                 map.put(item, 1);
             }
         }
-
-
         if (nums.length % 2 == 1) {
             return false;
         } else {
