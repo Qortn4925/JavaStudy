@@ -13,5 +13,6 @@ public class StreamExample {
         stream.forEach(a -> sum += a);
 
         System.out.println("sum = " + sum);
+        
     }
 }
