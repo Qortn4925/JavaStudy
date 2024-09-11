@@ -34,12 +34,7 @@ public class C02Map {
 
 
         //map의 fore each문은 biconsumer 인터페이스 > accept 라는 추상 메소드를 가짐 > 람다
-        map.forEach(new BiConsumer<String, Integer>() {
-            @Override
-            public void accept(String k, Integer v) {
-                System.out.println(k + " : " + v);
-            }
-        });
+        map.forEach((k, v) -> System.out.println(k + " : " + v));
 
 
     }
