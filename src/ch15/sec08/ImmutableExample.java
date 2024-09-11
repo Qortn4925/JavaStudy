@@ -31,7 +31,7 @@ public class ImmutableExample {
         map.put(2, "b");
         map.put(3, "c");
 
-        Map<Integer, String> map2 = Map.copyOf(map);
+//        Map<Integer, String> map2 = Map.copyOf(map);
 
 
     }
