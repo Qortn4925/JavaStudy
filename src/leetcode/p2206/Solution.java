@@ -1,7 +1,9 @@
 package leetcode.p2206;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 class Solution {
     public boolean divideArray(int[] nums) {
@@ -57,6 +59,13 @@ class Solution {
 
         return true;*/
 
+        // 스트림 풀이
+
+        Map<Integer, Long> amp = Arrays.stream(nums)
+                .boxed()
+                .collect(Collectors.groupingBy(x -> x, Collectors.counting()));
+
+        amp.values().stream().allMatch(e -> e % 2 == 0);
 
         return true;
     }

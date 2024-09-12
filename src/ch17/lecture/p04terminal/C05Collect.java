@@ -20,11 +20,11 @@ public class C05Collect {
 
         System.out.println("collect = " + collect);
 
-        List<Integer> list1 = list.stream()
+        list.stream()
                 .map(n -> n * 3)
-                .toList();
-        System.out.println("list1 = " + list1);
+                .forEach(x -> System.out.print(x));
 
+        System.out.println();
         Set<Integer> collect1 = list.stream()
                 .map(n -> n * 4)
                 .collect(Collectors.toSet());
