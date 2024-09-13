@@ -28,7 +28,7 @@ public class C05TreeSet {
         set3.add("java");
         set3.add("abc");
         set3.add("react");
-        set3.add("sql");
+        set3.add("abc");
         System.out.println("set3 = " + set3);
         System.out.println(set3.getFirst());
         System.out.println(set3.getLast());

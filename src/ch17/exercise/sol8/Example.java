@@ -4,6 +4,8 @@ import ch17.exercise.sol7.Member;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Example {
     public static void main(String[] args) {
@@ -23,5 +25,16 @@ public class Example {
                 .forEach(x -> System.out.println(x.getName() + ": " + x.getJob()));
 
 
+        Map<String, List<Member>> collect = list.stream()
+                .collect(Collectors.groupingBy(Member::getJob));
+
+        System.out.println();
     }
+
+
 }
+
+
+
+
+

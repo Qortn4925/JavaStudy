@@ -15,6 +15,7 @@ public class C01List {
         list.add("react");
         list.add(new String("css"));
         list.add("spring");
+        list.add("java");
         //1번 인덱스 react를 vue로 교환
         list.set(1, "vue");
         //특정 번호에 값 집어넣기 , 그 뒤에는 밀려서 +1됨

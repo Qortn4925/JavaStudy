@@ -13,6 +13,7 @@ public class Example {
                 new Member("신용권", "개발자")
         );
 
+
         list.stream()
                 .filter(x -> x.getJob().equals("개발자"))
                 .forEach(x -> System.out.println(x.getName()));
