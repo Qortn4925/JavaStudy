@@ -21,6 +21,6 @@ public class Solution {
 
         int[] array = {10, 11, 12};
         Solution.solution(array, 12);
-
+        
     }
 }
