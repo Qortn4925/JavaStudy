@@ -1,8 +1,6 @@
-package ch12.lecture.p05reflection;
+package ch12.lecture.p06annotation;
 
 import java.lang.annotation.Annotation;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 public class C04Annotation {
 
